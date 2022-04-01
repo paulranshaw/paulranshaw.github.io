@@ -96,6 +96,9 @@ body {
     text-decoration: none;
 }
 .portfolio-row {
+    display: -webkit-box;
+    display: -ms-flexbox; 
+    display: -webkit-flex;
     display: flex;
   }
 .column {
