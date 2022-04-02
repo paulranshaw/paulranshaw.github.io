@@ -41,6 +41,9 @@ body {
     color: #64ffda; 
 }
 .header {
+    background-color: #112240;
+    border: 25px solid #112240;
+    border-radius: 25px;
     color: white;
     font-family: 'Raleway', sans-serif;
     left: 50%;
