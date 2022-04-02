@@ -1,0 +1,18 @@
+.typewriter h1 {
+    animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    border-right: .15em solid #64ffda; 
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden; 
+    white-space: nowrap; 
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #64ffda }
+  }
